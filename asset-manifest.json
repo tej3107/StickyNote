@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/StickyNote/static/css/main.51691da2.chunk.css",
+    "main.js": "/StickyNote/static/js/main.279b4c8f.chunk.js",
+    "main.js.map": "/StickyNote/static/js/main.279b4c8f.chunk.js.map",
+    "runtime-main.js": "/StickyNote/static/js/runtime-main.a9f62fd0.js",
+    "runtime-main.js.map": "/StickyNote/static/js/runtime-main.a9f62fd0.js.map",
+    "static/js/2.22bf01e0.chunk.js": "/StickyNote/static/js/2.22bf01e0.chunk.js",
+    "static/js/2.22bf01e0.chunk.js.map": "/StickyNote/static/js/2.22bf01e0.chunk.js.map",
+    "static/js/3.ae11df5b.chunk.js": "/StickyNote/static/js/3.ae11df5b.chunk.js",
+    "static/js/3.ae11df5b.chunk.js.map": "/StickyNote/static/js/3.ae11df5b.chunk.js.map",
+    "index.html": "/StickyNote/index.html",
+    "static/css/main.51691da2.chunk.css.map": "/StickyNote/static/css/main.51691da2.chunk.css.map",
+    "static/js/2.22bf01e0.chunk.js.LICENSE.txt": "/StickyNote/static/js/2.22bf01e0.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/StickyNote/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9f62fd0.js",
+    "static/js/2.22bf01e0.chunk.js",
+    "static/css/main.51691da2.chunk.css",
+    "static/js/main.279b4c8f.chunk.js"
+  ]
+}
