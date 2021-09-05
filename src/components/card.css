@@ -1,0 +1,31 @@
+.card{
+    background-color: random;
+    width:30vh;
+    padding: 15px;
+    float:left;
+    margin:4vh;
+}
+h5,h6{
+    margin: 0;
+}
+.title{
+    background-color: gray;
+    color:white;
+    width:fit-content;
+    padding: 0 17px 0 17px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    /* float: left; */
+        
+}
+.data{
+    font-size:15px;
+}
+.key{
+    margin-left: 80%;
+    background-color: #aaa;
+    padding-left: 10px;
+}
+h6{
+    float: left;
+}
