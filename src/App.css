@@ -19,6 +19,7 @@
 button,input{
     margin:5px;
     border-radius: 3px;
+    /* color: white; */
 }
 
 .chngrp{
@@ -28,5 +29,18 @@ button,input{
 }
 .Addgrp{
     margin-top: 40px;
-    /* float: left; */
+    margin-right: 5vh;
+    float: left;
+}
+
+.grouping{
+    margin: 4px;
+    width: 100%;
+    float: right;
+    /* background: #bbb; */
+    background: rgb(175,175,175,0.5);
+}
+
+.pqr{
+    color:rgb(187, 187, 187);
 }

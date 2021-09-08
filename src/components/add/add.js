@@ -7,6 +7,7 @@ const Add = (props) => {
 
     const addUserHandler = (event) =>{
         event.preventDefault();
+        if(author.current.value===''||data.current.value==='')return;
         const Title = title.current.value;
         const Auth = author.current.value;
         const Data = data.current.value;
@@ -19,10 +20,11 @@ const Add = (props) => {
     return(
         <div className="Addform">
             <form onSubmit={addUserHandler}>
-                <input title="title" type="text" placeholder="Title" ref={title} /><br/>
+                <input title="title" type="text" placeholder="Group" ref={title} /><br/>
                 <input data="data" type="text" placeholder="Data" ref={data} /><br/>
                 <input author="author" type="text" placeholder="User" ref={author} /><br/>
-                <button type="submit" className="btn btn-primary">Add Sticky Notes</button>
+                <button type="submit" className="btn btn-primary">Add Notes</button>
+                <button className="btn btn-secondary" onClick={props.addstick}>Hide</button>
             </form>
         </div>
     );

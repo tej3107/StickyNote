@@ -6,6 +6,8 @@ const Changeit = props =>{
 
     const changegroup = (event) =>{
         event.preventDefault();
+
+        if(Id.current.value==='')return;
         const title = Id.current.value;
         const name = Name.current.value;
         props.grpchage(title,name);
