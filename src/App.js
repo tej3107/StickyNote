@@ -105,14 +105,7 @@ const App = () => {
     setdata((prev)=>{
         const prevarr = prev ? {...prev} : {author:"", data:"", title:"-1",group:"00"};
         return [
-            prevarr,
-            {author:"Rajnish", data:"Have Dinner sharp at 9pm tonight", title:"Food", keyid:1, group:0,x:0,y:0},
-            {author:"Tej", data:"Left with Oxytocin frontend for today", title:"Food", keyid:2, group:0,x:0,y:0},
-            {author:"Tej", data:"Oxytocin submission by 2pm today", title:"Food", keyid:3, group:0,x:0,y:0},
-            {author:"Rajnish", data:"Play badminton at 6pm in the evening", title:"Food", keyid:4, group:0,x:0,y:0},
-            {author:"Tej", data:"Data structure left with tries", title:"Food", keyid:5, group:0,x:0,y:0},
-            {author:"Shubham", data:"Fill all the bottles of fridge", title:"Food", keyid:6, group:0,x:0,y:0},
-            {author:"Tej", data:"Friday is cheat day for junk food", title:"Food", keyid:7, group:0,x:0,y:0}
+            prevarr
         ]
     });
     incxyz(()=>{return 8;})
